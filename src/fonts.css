@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "xoIcon";
+    src: url("./assets/font/xoIcon.eot"); /* IE9 Compat Modes */
+  src:
+    url("./assets/font/xoIcon.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("./assets/font/xoIcon.woff") format("woff"),
+    /* Modern Browsers */ url("./assets/font/xoIcon/icons.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("./assets/font/xoIcon/icons.svg#svgFontName")
+      format("svg"); /* Legacy iOS */
+}
+
+.arrow:before{
+    content: "\ea42";
+}
+
+.star:before{
+    content: "\e903";
+}
+
+.coffee:before{
+    content: "\e900";
+}
+
+.notion:before{
+    content: "\e901";
+}
+
+.printer:before{
+    content: "\e902";
+}
+
+.reddit:before{
+    content: "\eac6";
+}
+
+.circl:before{
+    content: "O";
+}
+
+.X:before{
+    content: "X";
+}

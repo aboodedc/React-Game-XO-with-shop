@@ -1,0 +1,62 @@
+@import url("./fonts.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes pulses {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+}
+
+:root{
+  @apply bg-slate-300
+}
+
+.xo div{
+  @apply border border-solid aspect-square w-full first:border-b-black first:border-r-black first:border-b-2 first:border-r-2
+}
+
+.xo div:nth-child(2)
+{
+  @apply border-r-2 border-l-2 border-b-2 border-r-black border-l-black border-b-black
+}
+
+.xo div:nth-child(3)
+{
+  @apply border-l-2 border-b-2  border-l-black border-b-black
+}
+
+.xo div:nth-child(4)
+{
+  @apply border-r-2 border-b-2 border-t-2 border-r-black border-t-black border-b-black
+}
+
+.xo div:nth-child(5)
+{
+  @apply border-black border-2
+}
+
+.xo div:nth-child(6)
+{
+  @apply border-l-2 border-b-2 border-t-2 border-l-black border-t-black border-b-black
+}
+
+.xo div:nth-child(7)
+{
+  @apply border-r-2 border-t-2 border-r-black  border-t-black
+}
+
+.xo div:nth-child(8)
+{
+  @apply border-r-2 border-l-2 border-t-2 border-r-black border-l-black border-t-black
+}
+
+.xo div:nth-child(9)
+{
+  @apply border-l-2 border-t-2 border-l-black  border-t-black
+}
